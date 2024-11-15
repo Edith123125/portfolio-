@@ -1,4 +1,3 @@
-
 body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -6,141 +5,135 @@ body {
     line-height: 1.6;
     background-color: #f9f9f9;
     color: #333;
-  }
-  header {
+}
+header {
     text-align: center;
     background-color: #4CAF50;
     color: white;
     padding: 2rem;
-  }
-  
-  header h1 {
+}
+header h1 {
     margin: 0;
     font-size: 2.5rem;
-  }
-  
-  header p {
+}
+header p {
     margin-top: 0.5rem;
     font-size: 1.2rem;
-  }
-
-  .profile-image {
+}
+.profile-image {
     margin-top: 1rem;
-    width: 150px; 
+    width: 150px;
     height: 150px;
-    border-radius: 50%; 
-    object-fit: cover; 
+    border-radius: 50%;
+    object-fit: cover;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-  }
-  
-
-  section {
+}
+section {
     padding: 2rem;
     margin: 1rem auto;
     max-width: 800px;
     background: white;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-  }
-  
-  section h2 {
+}
+section h2 {
     color: #4CAF50;
     border-bottom: 2px solid #4CAF50;
     padding-bottom: 0.5rem;
-  }
-  
-  section p {
+}
+section p {
     font-size: 1rem;
     line-height: 1.6;
-  }
-  
-  ul {
+}
+ul {
     list-style-type: disc;
     padding-left: 1.5rem;
-  }
-  
-  h3 {
+}
+h3 {
     color: #4CAF50;
     margin-top: 1rem;
-  }
-  
-  form {
+}
+form {
     display: flex;
     flex-direction: column;
-  }
-  
-  form label {
+}
+form label {
     margin: 0.5rem 0 0.2rem;
     font-weight: bold;
-  }
-  
-  form input, form textarea, form button {
+}
+form input, form textarea, form button {
     padding: 0.5rem;
     margin-bottom: 1rem;
     border: 1px solid #ccc;
     border-radius: 4px;
-  }
-  
-  form input, form textarea {
+}
+form input, form textarea {
     font-size: 1rem;
-  }
-  
-  form button {
+}
+form button {
     background-color: #4CAF50;
     color: white;
     border: none;
     font-size: 1rem;
     cursor: pointer;
     transition: background-color 0.3s ease;
-  }
-  
-  form button:hover {
+}
+form button:hover {
     background-color: #45a049;
-  }
-  
-  @media (max-width: 768px) {
+}
+@media (max-width: 768px) {
     header {
-      padding: 1.5rem;
+        padding: 1.5rem;
     }
-  
     header h1 {
-      font-size: 2rem;
+        font-size: 2rem;
     }
-  
     .profile-image {
-      width: 120px;
-      height: 120px;
+        width: 120px;
+        height: 120px;
     }
-  
     section {
-      padding: 1.5rem;
+        padding: 1.5rem;
     }
-  
     section h2 {
-      font-size: 1.5rem;
+        font-size: 1.5rem;
     }
-    
-footer {
-    background-color: #333; 
-    color: white;          
-    text-align: center;    
-    padding: 1rem 0;       
-    margin-top: 2rem;      
+    footer {
+        background-color: #333;
+        color: white;
+        text-align: center;
+        padding: 1rem 0;
+        margin-top: 2rem;
+    }
+    footer p {
+        margin: 0.5rem 0;
+    }
+    footer a {
+        color: #4CAF50;
+        text-decoration: none;
+        margin: 0 0.5rem;
+    }
+    footer a:hover {
+        text-decoration: underline;
+    }
+
+.social-icon {
+    width: 20px; 
+    height: 20px; 
+    margin-left: 5px; 
+    vertical-align: middle; 
   }
   
-  footer p {
-    margin: 0.5rem 0; 
-  }
-  
-  footer a {
-    color: #4CAF50; 
-    text-decoration: none; 
-    margin: 0 0.5rem; 
-  }
-  
-  footer a:hover {
-    text-decoration: underline; 
-  }
-  
-  }
-  
+          }
+          
+    }
+    footer a {
+        text-decoration: none;
+        color: #000;
+        font-size: 14px;
+        margin-right: 12px;
+    }
+    footer a:hover {
+        text-decoration: underline;
+    }
+}
